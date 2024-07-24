@@ -1,6 +1,6 @@
 # Olympics Athlete Performance Analysis
 
-This repository contains the work done for the MGSC 661 final project by Joshua Poozhikala. The project involves a predictive analysis to identify clusters of athletes based on body composition, focusing on weight and height, and to develop a logistic regression classification model to predict an athlete's success based on these factors.
+This repository contains the work done for the MGSC 661 final project. The project involves a predictive analysis to identify clusters of athletes based on body composition, focusing on weight and height, and to develop a logistic regression classification model to predict an athlete's success based on these factors.
 
 ## Project Description
 
