@@ -1,5 +1,4 @@
 # Olympics Athlete Performance Analysis
-
 This repository contains the work done for the MGSC 661 final project. The project involves a predictive analysis to identify clusters of athletes based on body composition, focusing on weight and height, and to develop a logistic regression classification model to predict an athlete's success based on these factors.
 
 ## Project Description
@@ -7,15 +6,11 @@ This repository contains the work done for the MGSC 661 final project. The proje
 This project uses historical data from the Olympic Games, spanning from Athens 1896 to Rio 2016, to analyze and predict athletic performance. The analysis involves exploratory data analysis (EDA), clustering using the K-means algorithm, and logistic regression for classification.
 
 ## Project Structure
-
-- `docs/`: Contains documentation and the final project report.
-  - `Final_poozhikala_joshua.pdf`: The final project report detailing the analysis and results.
-- `scripts/`: Contains R scripts used for data analysis and modeling.
-  - `MGSC661-FinalExaminationFinalCopy.R`: R script for the final examination analysis.
-  - `MGSC661-FinalExaminationFinalCopyLogisticRegression.R`: R script for logistic regression analysis.
+- `Final_poozhikala_joshua.pdf`: The final project report detailing the analysis and results.
+- `MGSC661-FinalExaminationFinalCopy.R`: R script for the final examination analysis.
+- `MGSC661-FinalExaminationFinalCopyLogisticRegression.R`: R script for logistic regression analysis.
 
 ## Dataset
-
 The dataset used in this project is from Kaggle and contains historical information on Olympic athletes. Due to its large size, the dataset is not included in this repository. You can download the dataset from the following link:
 
 [Olympics Dataset on Kaggle](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
