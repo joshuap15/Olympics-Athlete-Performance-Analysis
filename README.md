@@ -1,4 +1,5 @@
-# Olympics-Athlete-Performance-Analysis
+# Olympics Athlete Performance Analysis
+
 This repository contains the work done for the MGSC 661 final project by Joshua Poozhikala. The project involves a predictive analysis to identify clusters of athletes based on body composition, focusing on weight and height, and to develop a logistic regression classification model to predict an athlete's success based on these factors.
 
 ## Project Description
@@ -9,28 +10,15 @@ This project uses historical data from the Olympic Games, spanning from Athens 1
 
 - `docs/`: Contains documentation and the final project report.
   - `Final_poozhikala_joshua.pdf`: The final project report detailing the analysis and results.
-- `data/`: Contains the dataset used for the analysis.
-  - `athlete_events.csv`: The dataset containing historical information on Olympic athletes.
 - `scripts/`: Contains R scripts used for data analysis and modeling.
   - `MGSC661-FinalExaminationFinalCopy.R`: R script for the final examination analysis.
   - `MGSC661-FinalExaminationFinalCopyLogisticRegression.R`: R script for logistic regression analysis.
 
-## Overview
+## Dataset
 
-### Business Scenario
+The dataset used in this project is from Kaggle and contains historical information on Olympic athletes. Due to its large size, the dataset is not included in this repository. You can download the dataset from the following link:
 
-The Olympics are a globally significant event that unites athletes worldwide in a celebration of diversity and unity. The objective of this predictive analysis is to identify different clusters of athletes based on body composition, specifically focusing on weight and height, and to develop a logistic regression classification model to predict an athlete's success based on these factors.
-
-### Mission Statement & Objectives
-
-**Mission Statement:**  
-"The purpose of this analysis is to identify clusters of athletes based on body composition and to predict their success in winning medals at the Olympic Games using logistic regression."
-
-**Objectives:**  
-- Perform exploratory data analysis (EDA) to understand the dataset.
-- Implement K-means clustering to group athletes based on their height and weight.
-- Develop a logistic regression model to predict whether an athlete will win a medal based on body composition.
-- Evaluate the performance of the clustering and classification models.
+[Olympics Dataset on Kaggle](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
 ### Data Description
 
@@ -51,7 +39,7 @@ The dataset (`athlete_events.csv`) contains historical information on Olympic at
 - `Event`: Specific event the athlete competed in
 - `Medal`: Gold, Silver, Bronze, or NA (no medal)
 
-### Methodology
+## Methodology
 
 1. **Exploratory Data Analysis (EDA):**
    - Understand the structure and distribution of the dataset.
@@ -67,7 +55,7 @@ The dataset (`athlete_events.csv`) contains historical information on Olympic at
    - Split the dataset into training (70%) and testing (30%) sets.
    - Evaluate the model's performance using metrics such as accuracy, precision, recall, and confusion matrix.
 
-### Results
+## Results
 
 - **Clustering Analysis:**
   - Identified distinct clusters of athletes with similar body compositions.
@@ -77,7 +65,7 @@ The dataset (`athlete_events.csv`) contains historical information on Olympic at
   - The model achieved an overall accuracy of 85.39% but struggled to predict medal winners effectively.
   - Identified issues with class imbalance and model bias towards predicting 'no medal'.
 
-### Learning Experience
+## Learning Experience
 
 The project involved challenges such as handling a large dataset, addressing class imbalance in the classification model, and interpreting clustering results. Key learnings included the importance of data preprocessing, the application of clustering techniques, and the evaluation of classification models.
 
